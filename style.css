@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    background: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar img{
+    float: left;
+    width: 80px;
+    padding: 10px;
+}
+
+.navbar nav{
+    padding: 20px;
+    float: right;
+    text-decoration: none;
+
+}
+
+.navbar nav ul{
+list-style: none;
+}
+
+.navbar nav li{
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.navbar nav a{
+    color: #59606d;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.navbar nav a:visited{
+    color: #59606d;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+    /*background-image:url(images/adam-wilson-gNzqerPFtWs-unsplash.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-color: ;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:'Work Sans', sans-serif;
+    background-color: #59606d;*/
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family:'Work Sans', sans-serif;
+    width: 100%;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+  background:#c6f1e7;
+  }
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+    margin: 0;
+  }
+
+.logo{
+    float: left;
+    width: 100px;
+    padding-left: 10px
+}
+
+nav{
+    float: right;
+    padding-right: 40px;
+    padding-top: 5px;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative;
+}
+
+nav a{
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: #59606d;
+
+}
+
+nav a:hover{
+    color: #59606d;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+    width: 100%;
+  }
+
+  nav a:visited{
+    color: #59606d;
+  }
+
+  .mainBG{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+  }
+
+  .mainBG img{
+    opacity: 70%;
+    width: 100%;
+    padding-top: 56px;
+    height: 100%;
+
+  }
