@@ -15,7 +15,7 @@
     
             <img class="logo" src="images/WBlogoFinal.png" alt="website logo">
             
-            <nav>
+            <nav class="links">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -23,91 +23,92 @@
                     <li><a href="#">Pricing</a></li>
                 </ul>
             </nav>
+
+            <div class="hamburger">
+                <img src="/images/Hamburger_icon.svg.png" alt="">
+            </div>
         </div>  
     </header>
     
-    <div class="content">
-        <div>
-            <h1>Calculate total volume</h1>
-            
-            <div class="3biglifts">
+    <div class="content-container">
+        <div class="content">
+            <div>
+                <h1>Calculate total volume</h1>
                 
-                <div class="bpress">
-                    <h2>Bench press</h2>
-                    <img src="images/bpress.png" alt="">
-
-                    <form action="benchpress.php" method="post">
-                        <div>
-                            <label>Weight</label>
-                            <input type="text" name="bench-weight-kg" id="">
-                        </div>
-                        <div>
-                            <label>Reps</label>
-                            <input type="text" name="bench-rep-count" id="">
-                        </div>
-                        <div>
-                            <label>Sets</label>
-                            <input type="text" name="bench-set-count" id="">
-                        </div>
-                    </form>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, recusandae eligendi temporibus dolor maiores, magnam porro veniam quam blanditiis nesciunt aspernatur illo corrupti fugiat dolorem quis asperiores, unde sint excepturi.</p>
-                </div>
+                <div class="3biglifts">
+                    
+                    <div class="bpress">
+                        <h2>Bench press</h2>
+                        <img src="images/bpress.png" alt="">
     
-                <div class="squat">
-                    <h2>Squat</h2>
-                    <img src="images/squat.png" alt="">
-
-                    <form action="squat.php" method="post">
-                        <div>
-                            <label>Weight</label>
-                            <input type="text" name="squat-weight-kg" id="">
-                        </div>
-                        <div>
-                            <label>Reps</label>
-                            <input type="text" name="squat-rep-count" id="">
-                        </div>
-                        <div>
-                            <label>Sets</label>
-                            <input type="text" name="squat-set-count" id="">
-                        </div>
-                    </form>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, recusandae eligendi temporibus dolor maiores, magnam porro veniam quam blanditiis nesciunt aspernatur illo corrupti fugiat dolorem quis asperiores, unde sint excepturi.</p>
+                        <form action="benchpress.php" method="post">
+                            <div>
+                                <label>Weight</label>
+                                <input type="text" name="bench-weight-kg" id="">
+                            </div>
+                            <div>
+                                <label>Reps</label>
+                                <input type="text" name="bench-rep-count" id="">
+                            </div>
+                            <div>
+                                <label>Sets</label>
+                                <input type="text" name="bench-set-count" id="">
+                            </div>
+                        </form>
+    
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, recusandae eligendi temporibus dolor maiores, magnam porro veniam quam blanditiis nesciunt aspernatur illo corrupti fugiat dolorem quis asperiores, unde sint excepturi.</p>
+                    </div>
+        
+                    <div class="squat">
+                        <h2>Squat</h2>
+                        <img src="images/squat.png" alt="">
+    
+                        <form action="squat.php" method="post">
+                            <div>
+                                <label>Weight</label>
+                                <input type="text" name="squat-weight-kg" id="">
+                            </div>
+                            <div>
+                                <label>Reps</label>
+                                <input type="text" name="squat-rep-count" id="">
+                            </div>
+                            <div>
+                                <label>Sets</label>
+                                <input type="text" name="squat-set-count" id="">
+                            </div>
+                        </form>
+    
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, recusandae eligendi temporibus dolor maiores, magnam porro veniam quam blanditiis nesciunt aspernatur illo corrupti fugiat dolorem quis asperiores, unde sint excepturi.</p>
+                    </div>
+    
+                    <div class="dlift">
+                        <h2>Deadlift</h2>
+                        <img src="images/dlift.png" alt="">
+    
+                        <form action="benchpress.php" method="post">
+                            <div>
+                                <label>Weight</label>
+                                <input type="text" name="dlift-weight-kg" id="">
+                            </div>
+                            <div>
+                                <label>Reps</label>
+                                <input type="text" name="dlift-rep-count" id="">
+                            </div>
+                            <div>
+                                <label>Sets</label>
+                                <input type="text" name="dlift-set-count" id="">
+                            </div>
+                        </form>
+    
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, recusandae eligendi temporibus dolor maiores, magnam porro veniam quam blanditiis nesciunt aspernatur illo corrupti fugiat dolorem quis asperiores, unde sint excepturi.</p>
+                    </div>
                 </div>
-
-                <div class="dlift">
-                    <h2>Deadlift</h2>
-                    <img src="images/dlift.png" alt="">
-
-                    <form action="benchpress.php" method="post">
-                        <div>
-                            <label>Weight</label>
-                            <input type="text" name="dlift-weight-kg" id="">
-                        </div>
-                        <div>
-                            <label>Reps</label>
-                            <input type="text" name="dlift-rep-count" id="">
-                        </div>
-                        <div>
-                            <label>Sets</label>
-                            <input type="text" name="dlift-set-count" id="">
-                        </div>
-                    </form>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, recusandae eligendi temporibus dolor maiores, magnam porro veniam quam blanditiis nesciunt aspernatur illo corrupti fugiat dolorem quis asperiores, unde sint excepturi.</p>
-                </div>
+                
+    
             </div>
-            
-
         </div>
     </div>
-    <div class="box1"></div>
-    <div class="box2"></div>
+    
 </body>
-
-<footer>
-    <p>Copywright &copy Workout Buddy</p>
-</footer>
 
 </html>
