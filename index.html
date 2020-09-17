@@ -16,7 +16,9 @@
 
     <header>
         <div class="navbar">
-
+            <div class="hamburger">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
             <img class="logo" src="images/WBlogoFinal.png" alt="website logo">
 
             <nav class="links">
@@ -28,9 +30,7 @@
                 </ul>
             </nav>
 
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
+            
         </div>
     </header>
 
@@ -38,30 +38,29 @@
         <div class="content">
                 <h1>Calculate total volume</h1>
 
+                <div class="intro" ><p>Enter the current session values and submit to receive the total volume.</p></div>
+                <hr class="rounded">
                 <div class="big3lifts">
 
                     <div class="bpress">
                         <h2>Bench press</h2>
-                        <img src="images/bpress.png" alt="">
+                        <div><img src="images/bpress.png" alt=""></div>
 
                         <form action="benchpress.php" method="post">
-                            <div>
-                                <label>Weight</label>
-                                <input type="text" name="bench-weight-kg" id="">
-                            </div>
-                            <div>
-                                <label>Reps</label>
-                                <input type="text" name="bench-rep-count" id="">
-                            </div>
-                            <div>
-                                <label>Sets</label>
-                                <input type="text" name="bench-set-count" id="">
-                            </div>
-                        </form>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, recusandae eligendi
-                            temporibus dolor maiores, magnam porro veniam quam blanditiis nesciunt aspernatur illo
-                            corrupti fugiat dolorem quis asperiores, unde sint excepturi.</p>
+                                <div><label>Weight</label></div>
+                                <div><input type="text" name="bench-weight-kg" id=""></div>
+                                
+                                <div><label>Reps</label></div>
+                                <div><input type="text" name="bench-rep-count" id=""></div>
+                                
+                                <div><label>Sets</label></div>
+                                <div><input type="text" name="bench-set-count" id=""></div>
+                        </form>
+                        <div><button type="submit" value="Submit">Submit</button></div>
+                        
+                        
+                        
                     </div>
                     <hr class="rounded">
                     <div class="squat">
@@ -69,23 +68,20 @@
                         <img src="images/squat.png" alt="">
 
                         <form action="squat.php" method="post">
-                            <div>
-                                <label>Weight</label>
-                                <input type="text" name="squat-weight-kg" id="">
-                            </div>
-                            <div>
-                                <label>Reps</label>
-                                <input type="text" name="squat-rep-count" id="">
-                            </div>
-                            <div>
-                                <label>Sets</label>
-                                <input type="text" name="squat-set-count" id="">
-                            </div>
-                        </form>
+                            <div><label>Weight</label></div>
+                                <div><input type="text" name="squat-weight-kg" id=""></div>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, recusandae eligendi
-                            temporibus dolor maiores, magnam porro veniam quam blanditiis nesciunt aspernatur illo
-                            corrupti fugiat dolorem quis asperiores, unde sint excepturi.</p>
+                                <div><label>Reps</label></div>
+                                <div><input type="text" name="squat-rep-count" id=""></div>
+                                
+                                <div><label>Sets</label></div>
+                                <div><input type="text" name="squat-set-count" id=""></div>
+                        </form>
+                        <div><button type="submit" value="Submit">Submit</button></div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, recusandae eligendi
+                                temporibus dolor maiores, magnam porro veniam quam blanditiis nesciunt aspernatur illo
+                                corrupti fugiat dolorem quis asperiores, unde sint excepturi.</p></div>
                     </div>
                     <hr class="rounded">
                     <div class="dlift">
@@ -93,28 +89,29 @@
                         <img src="images/dlift.png" alt="">
 
                         <form action="benchpress.php" method="post">
-                            <div>
-                                <label>Weight</label>
-                                <input type="text" name="dlift-weight-kg" id="">
-                            </div>
-                            <div>
-                                <label>Reps</label>
-                                <input type="text" name="dlift-rep-count" id="">
-                            </div>
-                            <div>
-                                <label>Sets</label>
-                                <input type="text" name="dlift-set-count" id="">
-                            </div>
+                            <div><label>Weight</label></div>
+                            <div><input type="text" name="dlift-weight-kg" id=""></div>
+                            
+                            <div><label>Reps</label></div>
+                            <div><input type="text" name="dlift-rep-count" id=""></div>
+                            
+                            <div><label>Sets</label></div>
+                            <div><input type="text" name="dlift-set-count" id=""></div>
                         </form>
+                        <button type="submit" value="Submit">Submit</button>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, recusandae eligendi
                             temporibus dolor maiores, magnam porro veniam quam blanditiis nesciunt aspernatur illo
                             corrupti fugiat dolorem quis asperiores, unde sint excepturi.</p>
+                            <hr class="rounded">
                     </div>
                 </div>
         </div>
     </div>
 
+    <footer>
+        <p>Copywright</p>
+    </footer>
 </body>
 
 </html>
